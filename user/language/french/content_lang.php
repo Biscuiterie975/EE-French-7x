@@ -240,6 +240,10 @@ $lang = array(
     'button_mode' => 'Mode bouton:',
 
     'calendar' => 'Calendrier',
+	
+	'cat_selection_is_multiple_categories_assigned' => 'La sélection doit se limiter à une seule catégorie mais l\'entrée possède déjà plusieurs catégories qui lui sont associées.',
+
+    'cat_selection_is_multiple_auto_select_parent' => 'La sélection doit se limiter à une seule catégorie mais le groupe de catégories contient des catégories enfant et le réglage <code>Associer des catégories parentes</code> est activé.',
 
     'close_preview' => 'Fermer la prévisualisation',
 
@@ -354,6 +358,8 @@ $lang = array(
     'edit_comment' => 'Editer le commentaire',
 
     'edit_entry' => 'Editer l\'entrée',
+
+	'edit_member' => 'Editer le membre',
 
     'edit_selected' => 'Editer Sélectionné',
 
@@ -850,6 +856,8 @@ $lang = array(
     'expand_all' => 'Tout agrandir',
 
     'creating_new_in_rel' => 'Création en cours d\'une nouvelle entrée dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
+
+	'creating_member_in_rel' => 'Création en cours  d\'un nouveau membre pour établir un lien avec <b>#from_channel#</b>',
 
     'hide' => 'Masquer',
 
