@@ -366,6 +366,8 @@ $lang = array(
 
     'search_titles_only' => 'Rechercher les titres seulement',
 
+	'names_and_email_only' => 'Noms & email seulement',
+
     'columns_filter' => 'Colonnes',
 
     'perpage_filter' => 'visualiser',
@@ -643,7 +645,7 @@ $lang = array(
 
     'new_member' => 'Nouveau membre',
 
-    'all_members' => 'Tous les membres',
+    'all_members' => 'Membres',
 
     'pending_members' => 'Membres en attente',
 
@@ -789,17 +791,17 @@ $lang = array(
 
     'html_button_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à sauvegarder l\'ordre de vos boutons HTML. Rafraîchir la page et vérifier que vous êtes connecté(e)',
 
-    /* Search Reindex tip */
+    /* Content Reindex tip */
 
-    'search_reindex_tip' => 'Recherche Reindex',
+    'search_reindex_tip' => 'Réindexation de contenu',
 
-    'search_reindex_tip_desc' => " <a href='%s'>utiliser l\'outil de recherche d\'indexation</a> Outil à conserver pour vos données de recherche de mises à jour.",
+    'search_reindex_tip_desc' => " <a href='%s'>utiliser l\'outil de recherche d\'indexation</a> Outil à conserver pour vos données de contenu, mises à jour.",
 
     'reindex_not_needed' => 'La réindexation n\'est pas nécessaire',
 
     'reindex_not_needed_desc' => 'Votre index de recherche est à jour!',
 
-    'reindex_explained_desc' => 'L\'index de recherche peut devenir obsolète si vous avez récemment changé la vocation de certains types de champs qu\'ils soient soumis ou non aux actions de recherches.<br> Merci de consulter <a href="' . DOC_URL . '/control-panel/utilities.html#search-reindex">le guide utilisateur</a> pour plus de détails.',
+    'reindex_explained_desc' => 'Le contenu de recherche peut devenir obsolète si vous avez récemment modifié les propriétés de certains champs. <br>La réindexation va réalimenter les données utilisées par des champs complexes dans le gestionnaire de recherche et d\'entrées. <br>Merci de consulter <a href="' . DOC_URL . '/control-panel/utilities.html#content-reindex">le guide utilisateur</a> pour plus de détails.',
 
     /* Permissions */
 
