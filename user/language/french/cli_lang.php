@@ -425,6 +425,20 @@ $lang = array(
      'command_sync_file_usage'                 => 'Mise à jour de l\'utilisation des fichiers.',
      'command_sync_file_usage_done'            => 'L\'utilisation du fichier a été mise à jour avec succès.',
 
+	// Lang entries for command sync:reindex
+     'command_reindex_description'                               => 'Réindexation de contenu',
+     'command_reindex_summary'                                   => 'Le contenu recherché peut devenir obsolète si vous avez récemment modifié les propriétés de certains champs. La réindexation va réalimenter les données utilisées par les champs de recherche complexes dans le gestionnaire de recherche et d\'entrées.',
+     'command_reindex_option_site_id'                            => 'ID du site. Ignorer ce paramètre pour réindexer le contenu sur tous les sites',
+     // Lang entries for command sync:upload-directory
+     'command_sync_upload_directory_description'     => 'Synchroniser le répertoire de téléchargement',
+     'command_sync_upload_directory_summary'         => '',
+     'command_sync_upload_directory_started'         => 'Synchronisation en cours...',
+     'command_sync_upload_directory_option_id'       => 'Télécharger l\'ID du répertoire',
+     'command_sync_upload_directory_ask_id'          => 'Entrer l\'ID du répertoire de téléchargement',
+     'command_sync_upload_directory_option_regenerate_manipulations' => 'Manipulations d\'images à des fins de régénération. Liste d\'ID de manipulations séparées par des virgules. Entrer \'all\' pour régénérer toutes les manipulations, valeur vide pour les ignorer.',
+     'command_sync_upload_directory_ask_regenerate_manipulations' => 'Entrer les ID de manipulations séparées par des virgules à des fins de régénération. Entrer \'all\' pour régénérer toutes les manipulations, vide pour les ignorer.',
+     'cli_error_sync_upload_directory_base_path_is_empty' => '{base_path} est utilisé pour le chemin du répertoire de téléchargement mais il est vide',
+
     // Lang entries for command update:prepare
     'command_update_prepare_description'                        => 'Préparer la mise à jour d\'un site en utilisant ces fichiers',
     'command_update_prepare_summary'                            => 'Cette commande copie tous les fichiers nécessaires pour mettre à jour un autre site différent d’ExpressionEngine et le restructurer',
