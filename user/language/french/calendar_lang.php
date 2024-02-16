@@ -91,6 +91,8 @@ $lang = array(
     'cal_november' => 'Novembre',
 
     'cal_december' => 'Décembre',
+	
+	'cal_today' => 'Aujourd'hui',
 
 );
 
