@@ -33,9 +33,11 @@ $lang = array(
      'rte_advanced_config_desc' => 'Editer la configuration directement en format JSON',
      'rte_config_json' => 'Configuration JSON',
      'rte_config_json_desc' => 'Ecrase visuellement la boîte à outils établie',
-     'rte_advanced_config_warning' => '<p><b>Avertissement</b>: <b class="no">Seulement à l\’attention des utilisateurs expérimentés.</b> Soyez très prudent(e) en utilisant cette fonctionnalité et vérifiez votre travail.</p><p>La fourniture d\’une configuration invalide peut rendre les champs RTE inaccessibles.</p><p>Consultez les documents d\’edition: <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/configuration.html" target="_blank">CKEditor</a>, <a href="https://imperavi.com/redactor/docs/settings/" target="_blank">Note de la rédaction</a>:</p><p>certaines options peuvent ne pas être disponibles sinon avoir été implémentées de manière différente. Nous conseillons d\’utiliser Full configuration (Configuration complète) comme base de départ.<p>',
+     'rte_advanced_config_warning' => '<p><b>Avertissement</b>: <b class="no">Seulement à l\’attention des utilisateurs expérimentés.</b> Soyez très prudent(e) en utilisant cette fonctionnalité et vérifiez votre travail.</p><p>La fourniture d\’une configuration invalide peut rendre les champs RTE inaccessibles.</p><p>Consultez les documents d\’edition: <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/configuration.html" target="_blank">CKEditor</a>, <a href="https://imperavi.com/redactor/docs/settings/" target="_blank">Note de la rédaction</a>,<a href="https://imperavi.com/redactorx/docs/settings/" target="_blank">RedactorX</a>.</p><p>Certaines options peuvent ne pas être disponibles sinon avoir été implémentées de manière différente. Nous conseillons d\’utiliser Full configuration (Configuration complète) comme base de départ.<p>',
     'rte_config_saved' => 'Configuration sauvegardée!',
     'rte_config_saved_desc' => 'Votre configuration a été sauvegardée avec succès.',
+	 'rte_custom_ckeditor_build' => 'Utiliser la version personnalisée de CKEditor?',
+     'rte_custom_ckeditor_build_desc' => 'Autorise l\'utilisation de la version CKEditor personnalisée avec des plugins supplémentaires. If enabled, RTE instances running CKEditor will be created using <code>themes/user/rte/javascript/ckeditor.js</code> script. Check the User Guide for <a href="' . DOC_URL . 'add-ons/rte.html#ckeditor" rel="external">building instructions</a>.'
 
     // Delete Config
     'rte_delete_config' => 'Supprimer la configuration',
@@ -237,6 +239,10 @@ $lang = array(
 
     'image_rte' => 'Image',
 
+	'imageposition_rte' => 'Position de l\'image',
+
+     'imageresize_rte' => 'Redimensionnement de l\'image',
+
     'file_rte' => 'Fichier',
 
     'strikethrough_rte' => 'Barré',
@@ -253,13 +259,21 @@ $lang = array(
 
     'code_rte' => 'Code',
 
+	'blockcode_rte' => 'Code',
+
     'blockquote_rte' => 'Bloc de citation',
+
+	'quote_rte' => 'Citation',
 
     'heading_rte' => 'Titre',
 
     'format_rte' => 'Format',
 
+	'inlineformat_rte' => 'Format'
+
     'removeFormat_rte' => 'Supprimer le formatage',
+
+	'removeformat_rte' => 'Supprimer le formatage',
 
     'undo_rte' => 'Défaire',
 
@@ -286,6 +300,8 @@ $lang = array(
     'filemanager_rte' => 'Image',
 
     'insertTable_rte' => 'Table',
+
+	'selector_rte' => 'Classe & ID',
 
     'table_rte' => 'Table',
 
@@ -319,9 +335,15 @@ $lang = array(
 
     'fontBackgroundColor_rte' => 'Police de fond',
 
+	'codeBlock_rte' => 'Bloc de code',
+
+     'sourceEditing_rte' =>  'Edition de la source',
+
     'open_in_new_tab' => 'Ouvrir dans un nouvel onglet',
 
     'source_rte' => 'Visualiser la source',
+
+	'showBlocks_rte' => 'Afficher les blocs',
 
     'video_rte' => 'Vidéo',
 
@@ -349,6 +371,62 @@ $lang = array(
     'pages_rte' => 'Pages',
 
     'fontcolor_rte' => 'Couleur de texte',
+
+	'rte_spellcheck' => 'Correction orthographique',
+
+     'rte_spellcheck_desc' => 'Activer la correction orthographique dans l\'éditeur (doit aussi être activée dans le navigateur)',
+
+     'browser' => 'Navigateur',
+
+     'grammarly' => 'Grammaire',
+
+     'rte_control_bar' => 'Afficher la barre de contrôle?',
+
+     'rte_control_bar_desc' => 'La barre de contrôle est le menu rétractable affiché à la gauche de l\'élément avec des actions communes',
+
+     'rte_format' => 'Options de formatage',
+
+     'rte_format_desc' => 'Balises autorisées dans le menu déroulant Format',
+
+     'add_rte' => 'Ajouter',
+
+     'shortcut_rte' => 'Raccourci',
+
+     'embed_rte' => 'Emcapsuler',
+
+     'mark_rte' => 'Mark',
+
+     'kbd_rte' => 'kbd',
+
+     'pre_rte' => 'Preformaté',
+
+     'rte_show_context' => 'Afficher la barre contextuelle?',
+
+     'rte_show_context_desc' => 'La barre contextuelle apparaît quand le texte est sélectionné',
+
+     'rte_context' => 'Barre contextuelle',
+
+     'rte_show_addbar' => 'Afficher la barre ajouter ?',
+
+     'rte_show_addbar_desc' => 'La barre Ajouter apparaît en cliquant sur  Ajouter bouton',
+
+     'rte_addbar' => 'Barre Ajouter',
+
+     'rte_show_topbar' => 'Afficher la barre supérieure?',
+
+     'rte_show_topbar_desc' => 'Affichée à la droite de la barre d\'outils principale',
+
+     'rte_topbar' => 'Barre supérieure',
+
+     'rte_toolbar_sticky' => 'Rendre la barre d\'outils persistante?',
+
+     'rte_show_main_toolbar_desc' => 'Garde la barre d\'outils toujours visible lors du défilement',
+
+     'rte_show_main_toolbar' => 'Afficher la barre d\'outils principale',
+
+     'rte_show_main_toolbar_desc' => 'Peut être affichée en gardant la fonctionnalité accessible et en utilisant d\'autres barres d\'outils ou des raccourcis clavier',
+
+     'rte_main_toolbar' => 'Barre d\'outils principale',
 
     '' => ''
 );
