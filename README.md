@@ -8,7 +8,7 @@
 - Set the language preference in ExpressionEngine Control Panel
 
 ## Changes Between Versions
-- [7.3.15 → 7.4]
+- [7.3.15 → 7.4.2](https://github.com/Biscuiterie975/EE-English-7X/commit/5737eba7fe516d01439bcc469aa346188a49240d)
 - [7.3.8 → 7.3.15]
 - [7.2.5 → 7.3.8]
 - [7.2.5 → 7.2.17]
