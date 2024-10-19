@@ -642,6 +642,25 @@ $lang = array(
 
     'channel_roles_desc' => 'Les membres à qui sont confiés ces rôles peuvent administrer les actions sélectionnées dans ce canal.',
 
+	/* Générateur de modèles */
+
+    'select_channels_to_generate' => 'Sélectionnez les canaux que vous souhaitez utiliser dans les modèles',
+
+    'invalid_channel' => 'Aucun canal valide n\'a été sélectionné',
+
+    'select_fields_to_generate' => 'Sélectionnez les champs que vous souhaitez utiliser dans les modèles',
+
+    'invalid_field' => 'Aucun champ valide n\'a été sélectionné',
+
+    'channel_fields_template_generator' => 'Champs des canaux',
+
+    'channel_channels_template_generator' => 'Canaux',
+
+    'channel_field_groups_template_generator' => 'Groupes de champs des canaux',
+
+    'show_comments' => 'Afficher les commentaires',
+
+    'show_comments_desc' => 'Ajoute des commentaires avec des champs générés incluant des liens vers la documentation'
 );
 
 // EOF
